@@ -1,0 +1,127 @@
+/* Reda Yahya */
+
+/* Div : Conteneur */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* ------------- formulaire ------------- */
+form {
+    background-color: #f5f5f5;
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px 2px #28a745;
+    border-radius: 10px;
+}
+
+/* h1 */
+h1 {
+    text-align: center;
+    color: #12cf4e;
+    text-shadow: 0px 0px 2px black;
+    margin-bottom: 20px;
+}
+
+#titre1{
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 8%;
+}
+
+/* Div : input-box */
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-top: 12px;
+}
+
+.input-box input {
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid gray;
+}
+
+/* Div : input-name */
+.input-name {
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 7% ;
+}
+
+.input-name input {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid gray;
+    width: 35%;
+}
+
+#lastname{
+    margin-left: 9.8%;
+}
+
+/* checkbox */
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 11px;
+}
+
+.checkbox input {
+    margin-right: 10px;
+}
+
+.checkbox label {
+    color: #12cf4e;
+}
+
+span {
+    color: #12cf4e;
+    text-shadow: 0px 0px 1px #12cf4e;
+}
+
+#souvenir{
+    font-size: 18px;
+}
+
+/* Bouton */
+#signin, #register {
+    background-color: #12cf4e;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    width: 85%;
+    margin: 10px auto;
+}
+
+#signin:hover, #register:hover {
+    background-color: #0a923b;
+}
+
+/* p */
+p {
+    text-align: center;
+    margin-top: 15px;
+    opacity: 0.6;
+}
+
+p a {
+    color: #12cf4e;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
